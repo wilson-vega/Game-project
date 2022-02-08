@@ -1,0 +1,229 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background: black;
+    color: whitesmoke;
+    background-color: #080808;
+    background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='%231eb8ba' fill-opacity='0.16' fill-rule='evenodd'/%3E%3C/svg%3E");
+    font-size: 16px;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  
+  .name {
+      font-family: 'Arvo', serif;
+  font-family: 'Shadows Into Light', cursive;
+  }
+  
+  
+  a {
+    color: whitesmoke;
+    text-decoration: none;
+  }
+  
+  ul {
+      list-style: none;
+  }
+  
+  .boxx {
+      width: 90%;
+      margin: auto;
+  }
+  
+  .nav-main {
+      font-size: 17px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 60px;
+      padding: 20px 0;
+  }
+  
+  .logo1{
+      width: 60px;
+      margin-top: 10px;
+  }
+  
+  .nav-main ul {
+      display: flex;
+  }
+  
+  .nav-main ul li {
+      padding: 10px;
+  }
+  
+  
+  
+  .nav-main ul li a:hover {
+      border-bottom: 2px solid white;
+      opacity: .5;
+  }
+  
+  
+  .nav-main ul.navegador1 {
+      flex: 1;
+      margin-left: 20px;
+  }
+  
+  .icon_user{
+      width: 30px;
+  }
+  
+  
+  
+  
+  .icon_user:hover {
+      transform: rotate(180deg);
+  }
+  
+  .logout:hover {
+      transform: rotate(180deg);
+  }
+  
+  
+  
+  
+  .banner {
+      width: 100%;
+      height: 500px;
+      background: url(./assets/images/baner1.png) no-repeat center center/cover;
+      padding-bottom: 50px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-end;
+  }
+  
+  header {
+      margin-top: 15px;
+  }
+  
+  
+  
+  .boton1 {
+      cursor: pointer;
+      display: inline-block;
+      border: 0;
+      font-weight: bold;
+      padding: 10px 20px;
+      background: #080808;
+      color: white;
+      font-size: 15px;
+      border: 1px solid white;
+      margin: 10px 0;
+  }
+  
+  .boton1:hover {
+      opacity: .6;
+  }
+  
+  
+  
+  
+  
+  .titulo1 {
+      font-weight: bold;
+      text-align: center;
+      margin: 20px;
+      font-size: 25px;
+  }
+  
+  
+  .cards {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      margin-top: 20px;
+      gap: 20px;
+  }
+  
+  
+  
+  .cards img {
+      width: 100%;
+      height: 180px;
+      
+  }
+  
+  .cards h3 {
+      font-size: 20px;
+      
+  }
+  
+  .cards a {
+      padding: 10px 0;
+      color: white;
+      text-transform: uppercase;
+      display: inline-block;
+      font-weight: bold;
+  }
+  
+  .cards a:hover {
+      text-decoration: underline;
+  }
+  
+  
+  
+  
+  
+  .banner2 {
+      width: 100%;
+      height: 350px;
+      background: url(./assets/images/banner24.png);
+      padding-bottom: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-end;
+      margin-bottom: 20px;
+      padding-left: 20px;
+      margin-top: 20px;
+  }
+  
+  .banner2 h2 {
+      font-weight: bold;
+  }
+  
+  
+  .galery_stream {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      margin-top: 20px;
+      gap: 20px;
+  }
+  
+  .galery_stream iframe {
+      width: 100%;
+      height: 200px;
+  }
+  
+  
+  
+  
+  .redes {
+      margin: 50px;
+  }
+  
+  
+  .redes p {
+      text-align: center;
+      font-size: 30px;
+      margin-bottom: 20px;
+  }
+  
+  
+  .links {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  .links a {
+      margin: 0 30px;
+  }
+  
+  .links a i {
+      font-size: 3rem;
+  }
